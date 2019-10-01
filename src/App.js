@@ -1,9 +1,20 @@
 import React, {useEffect, useState} from "react";
+import styled from 'styled-components';
 import "./App.css";
-// import DatePicker from "./NasaCom/button.js"
-
 import axios from "axios";
-import { setDate } from "date-fns";
+
+const Button = styled.button`
+   padding:0.6rem 1 rem;
+   margin: 0.5rem;
+   border:none;
+   border-radius: 0.3rem;
+   color:blue;
+`;
+
+const Text = styled.h3`
+  font-size: 2.5rem;
+`;
+
 
 function App() {
   
@@ -30,6 +41,7 @@ function App() {
     <div className="App">
       <h1>Nasa Photo of the Day</h1>
       <h3>{date}</h3>
+      <Button>random</Button>
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
