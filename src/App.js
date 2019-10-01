@@ -8,11 +8,11 @@ const Button = styled.button`
    margin: 0.5rem;
    border:none;
    border-radius: 0.3rem;
-   color:blue;
+   background-color:#99ccff;
 `;
 
 const Text = styled.h3`
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 `;
 
 
@@ -40,8 +40,8 @@ function App() {
   return (
     <div className="App">
       <h1>Nasa Photo of the Day</h1>
-      <h3>{date}</h3>
       <Button>random</Button>
+      <Text>{date}</Text>
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
