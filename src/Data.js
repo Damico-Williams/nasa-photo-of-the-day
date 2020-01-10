@@ -38,7 +38,7 @@ const Data = () => {
 
     return (
     <div className="App">
-    <Button>random</Button>
+    <Button>Go</Button>
     <Text>{date}</Text>
     {/* <p>
       Read through the instructions in the README.md file to build your NASA
